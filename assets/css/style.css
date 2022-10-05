@@ -1,0 +1,597 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER SECTION STARTS */
+.showcase {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg)no-repeat center center/cover;
+
+}
+
+.showcase::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+
+/* navbar */
+.showcase-top {
+    position: relative;
+    z-index: 2;
+    padding: 26px 0px 0px 55px;
+}
+
+.showcase-top #logo {
+    height: 35px;
+
+}
+
+.showcase-top .submit {
+    background-color: #ef0914;
+    color: white;
+    border: none;
+    padding: 5px 16px;
+    border-radius: 3px;
+    float: right;
+    position: relative;
+    right: 55px;
+
+}
+
+.showcase-top select {
+    background-color: transparent;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 10px;
+    float: right;
+    position: relative;
+    right: 85px;
+}
+
+.showcase-top select option {
+    color: black;
+
+}
+
+/* get started */
+.showcase .get-started-container {
+    z-index: 2;
+    position: relative;
+    top: 180px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.showcase .get-started-container h1,
+p {
+    color: white;
+}
+
+.showcase .get-started-container h1 {
+    font-size: 3.9rem;
+}
+
+.showcase .get-started-container .para-1 {
+
+    font-size: 1.7rem;
+}
+
+.showcase .get-started-container .para-2 {
+    font-size: 1.2rem;
+}
+
+.showcase .get-started-container input {
+    width: 35%;
+    padding: 22px;
+    border: none;
+    margin-top: 0.5%;
+    outline: none;
+}
+
+.showcase .get-started-container button {
+    padding: 22px;
+    border: none;
+    background-color: #ef0914;
+    color: white;
+    margin-left: -0.3%;
+    font-weight: bold;
+}
+
+/* main section starts  */
+
+/* enjoy on your tv */
+.main-section .section-container {
+    border-top: 8px solid #222;
+    background-color: black;
+    display: flex;
+    padding: 0px 80px 90px;
+
+
+}
+
+.main-section .section-container .left-col {
+    padding-top: 13%;
+    padding-right: 2%;
+}
+
+.main-section .section-container .left-col h1 {
+    color: white;
+}
+
+.main-section .section-container .left-col h3 {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-top: 5%;
+}
+
+.main-section .section-container .right-col {
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    height: 500px;
+}
+
+.main-section .section-container .right-col img {
+    position: absolute;
+    width: 100%;
+
+}
+
+.main-section .section-container .right-col .video-1 {
+    margin-left: 13%;
+    margin-top: 16%;
+    width: 73%;
+}
+
+/* Download your show to Watch it offline */
+
+.main-section .section2-container {
+
+    border-top: 8px solid #222;
+    background-color: black;
+    display: flex;
+    padding: 0px 80px 90px;
+
+}
+
+.main-section .section2-container .left-col img {
+    width: 100%;
+}
+
+.main-section .section2-container .left-col .box {
+
+    border: 2px solid rgba(225, 225, 225, .25);
+    background-color: black;
+    border-radius: 10px;
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: -22%;
+    position: relative;
+}
+
+.main-section .section2-container .left-col .box .boxshot {
+    width: 15%;
+
+}
+
+.main-section .section2-container .left-col .box p {
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.main-section .section2-container .left-col .box a {
+    text-decoration: none;
+}
+
+.main-section .section2-container .left-col .box .download-gif {
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    right: 0;
+}
+
+
+.main-section .section2-container .right-col {
+    padding: 13% 2% 0 0;
+    width: 50%;
+}
+
+.main-section .section2-container .right-col h1 {
+    color: white;
+}
+
+.main-section .section2-container .right-col h3 {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-top: 5%;
+}
+
+/* Watch every where */
+.main-section .section-container .right-col .video-2 {
+    margin-left: 19%;
+    margin-top: 8%;
+    width: 61%;
+}
+
+/* Create profiles for children. */
+.main-section .section2-container .left-col img {
+    width: 100%;
+}
+
+/* Questiopn section  */
+.question-container {
+    background-color: black;
+    border-top: 8px solid #222;
+    padding-top: 60px;
+}
+
+.question-container h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: 3%;
+}
+
+.question-container button {
+    border: none;
+    background-color: #303030;
+    color: white;
+    width: 60%;
+    padding: 16px;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.question-container button img {
+    width: 3%;
+    position: absolute;
+    right: 20px;
+}
+
+.question-container .answer {
+    background-color: #303030;
+    width: 60%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 20px;
+    display: none;
+
+}
+
+.email-address-container {
+    width: 100%;
+    z-index: 2;
+    position: relative;
+    background-color: black;
+    text-align: center;
+    padding: 4% 0%;
+}
+
+.email-address-container p {
+    font-size: 20px;
+}
+
+.email-address-container input {
+    width: 35%;
+    padding: 22px;
+    border: none;
+    margin-top: .5%;
+    outline: none;
+}
+
+.email-address-container button {
+    padding: 23px;
+    border: none;
+    background-color: #ef0914;
+    color: white;
+    margin: -0.3%;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+/* Footer section starts  */
+
+footer {
+    background-color: black;
+    border: 8px solid #222;
+    padding: 5%;
+}
+
+footer h5 {
+    color: white;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.Footer-content {
+    max-width: 1560px;
+    margin: 0px 90px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer .box {
+    width: 25%;
+    transition: all .4s ease;
+}
+
+footer p {
+    text-align: justify;
+    color: rgb(126, 126, 126);
+}
+
+footer .middle {
+    padding-left: 80px;
+}
+
+footer .middle a {
+    line-height: 32px;
+    color: rgb(126, 126, 126);
+    text-decoration: none;
+}
+
+footer .middle a:hover {
+    text-decoration: underline;
+}
+
+footer select {
+    padding: 8px;
+    background-color: transparent;
+    border: 1px solid grey;
+    color: rgb(126, 126, 126);
+}
+
+footer option {
+    background-color: black;
+}
+
+/* responsive css code */
+
+@media(max-width:1100px) {
+    .Footer-content .middle {
+        padding-left: 50px;
+    }
+}
+
+@media(max-width:943px) {
+
+    /* get started */
+    .showcase .get-started-container {
+        position: relative;
+        top: 90px;
+    }
+
+    .showcase .get-started-container h1 {
+        font-size: 3.4rem;
+    }
+
+    .showcase .get-started-container .para-1 {
+        font-size: 1.5rem;
+    }
+
+    .showcase .get-started-container .para-2 {
+        font-size: 1rem;
+    }
+
+    .showcase .get-started-container input {
+        padding: 17px;
+        width: 55%;
+    }
+
+    .showcase .get-started-container button {
+        display: block;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 1.5%;
+        padding: 12px;
+    }
+
+    /* Enjoy on your tv */
+    .main-section .section-container {
+        display: block;
+    }
+
+    .main-section .section-container .left-col {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-section .section-container .right-col {
+        width: 100%;
+
+    }
+
+    /* Downloa dyour show to watch offline  */
+
+    .main-section .section2-container {
+        display: block;
+
+    }
+
+    .main-section .section2-container .left-col {
+        width: 100%;
+    }
+
+    .main-section .section2-container .right-col {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* .email-address-container */
+
+    .email-address-container input {
+        width: 55%;
+        padding: 17px;
+    }
+
+    .email-address-container button {
+        display: block;
+        margin: 1.5% auto 0%;
+        padding: 12px;
+    }
+
+    /* footer section  */
+    footer .box {
+        width: 50%;
+    }
+
+}
+
+
+
+
+@media (max-width:774px) {
+    .main-section .section-container {
+        padding-bottom: 0px;
+    }
+}
+
+@media(max-width:659px) {
+
+    /* navbar */
+    .showcase-top {
+        padding: 26px 0px 0px 25px;
+    }
+
+    .showcase-top #logo {
+        height: 25px;
+    }
+
+    .showcase-top .submit {
+        position: relative;
+        right: 25px;
+        padding: 2px 25px;
+    }
+
+    .showcase-top select {
+        position: relative;
+        right: 40px;
+        padding: 2px 10px;
+    }
+
+    /* get started  */
+    .showcase .get-started-container {
+        position: relative;
+        top: 60px;
+
+    }
+
+    .showcase .get-started-container h1 {
+        font-size: 2rem;
+        padding: 50px;
+        padding-bottom: 0px;
+    }
+
+    .showcase .get-started-container .para-1 {
+        font-size: 1.5rem;
+    }
+
+    .showcase .get-started-container .para-2 {
+        font-size: 1rem;
+    }
+
+    .showcase .get-started-container input {
+        padding: 14px;
+        width: 70%;
+    }
+
+    /* Questions section  */
+    .question-container button {
+        width: 100%;
+    }
+
+    .question-container .answer {
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+
+    /* enjoy your tv  */
+    .main-section .section-container .right-col {
+        height: 270px;
+    }
+
+    /* download your show watch ofline  */
+
+    .main-section .section2-container .left-col .box {
+        width: 100%;
+
+    }
+
+    /* footer section  */
+    footer {
+        position: relative;
+    }
+
+    footer .box {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    footer .middle {
+        padding-left: 0;
+    }
+}
+
+@media(max-width:350px) {
+
+    /* navbar */
+    .showcase-top #logo {
+        height: 22px
+    }
+
+    .showcase-top .submit {
+        padding: 1px 5px;
+    }
+
+    .showcase-top select {
+        padding: 1px 0px;
+    }
+
+    /* get started  */
+
+    .showcase .get-started-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .showcase .get-started-container .para-1 {
+        font-size: 1.1rem;
+    }
+
+    .showcase .get-started-container .para-2 {
+        font-size: 0.8rem;
+    }
+
+    .main-section .section-container .right-col {
+        height: 200px;
+    }
+}
